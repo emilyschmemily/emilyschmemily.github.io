@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	text-align: center;
+	background-color: #FFE14F;
+	color: #155BBD;
+	font-family: Helvetica;
+}
+
+h1{
+	font-weight: 700;
+	color: #FF3E29;
+	font-weight: 70px;
+}
+
+#slogan{
+	font-size: 20px;
+	font-style: italic;
+}
+
+a{
+	text-deocration: none;
+}
+
+h4{ font-size: 20px; }
