@@ -20,13 +20,13 @@ body{
 #two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
-	padding: 1em;
+	padding: 20px;
 }
 
 #left{
 	background-color: #E582A2;
 	border: 1px black solid;
-	padding: 1em;
+	padding: 20px;
 	float: left;
 	width: 40%;
 	min-height: 80vh;
@@ -35,7 +35,7 @@ body{
 #right{
 	background-color: #E55B88;
 	border:1px black solid;
-	padding: 1em;
+	padding: 20px;
 	float: right;
 	width: 60%;
 	min-height: 80vh;
@@ -53,7 +53,7 @@ body{
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
-    padding: 1em;
+    padding: 20px;
 }
 
 nav a{
@@ -84,14 +84,14 @@ h1{
 aside {
 	background-color: #FFC675;
 	border: 1px black solid;
-    padding: 1em;
+    padding: 20px;
     margin: 0em auto;
 }
 
 article {
 	background-color: #E89C6C;
 	border: 1px black solid;
-    padding: 0.5em;
+    padding: 10px;
 }
 
 ul{
@@ -99,14 +99,14 @@ ul{
 }
 
 #slogan{
-	font-size: 1em;
+	font-size: 20px;
 	font-style: italic;
 	margin: 0.5em;
 }
 
 hr{
 	border: none;
-	height: 3px;
+	height: : 3px;
 	background-color: #3C3C3C;
 	margin: 2em auto;
 }
@@ -115,8 +115,8 @@ a{
 	text-decoration: none;
 }
 
-h4{ 
-	font-size: 1em; 
+h4{ f
+	font-size: 20px; 
 	margin: 0.5em;
 }
 
@@ -134,7 +134,7 @@ img{
 footer{
 	background-color: #FF957E;
 	border: 1px black solid;
-    padding: 1em;
+    padding: 20px;
 }
 
 .wrapper{
@@ -145,30 +145,3 @@ footer{
     width: 100%;
     max-width: 1024px;
 }
-
-@media screen and (max-width: 850px) {
-	#left {
-		float: none;
-		display: block;
-	}
-	#right{
-		float: none;
-		display: block;
-	}
-
-
-@media screen and (max-width: 590px) {
-	nav a{
-		float: none;
-		display: block;
-	}
-
-}
-
-
-
-
-
-
-
-
